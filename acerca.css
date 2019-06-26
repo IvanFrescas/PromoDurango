@@ -1,0 +1,49 @@
+@font-face{
+    font-family: "Segoe-Print";
+    src: url("Fonts/segoeprb.ttf");
+}
+
+.navbar {
+    background-color: rgb(233, 51 , 64) !important;
+}
+
+.btn-promo{
+    background-color: rgb(219, 47, 58);
+}
+
+.btn-promo:hover{
+    background-color: rgb(185, 41, 51);
+}
+
+#header img{
+    width: 150px;
+}
+
+h2{
+    font-family: 'Segoe-Print', sans-serif;
+    color: #E93240;
+    text-align: center;
+    font-weight: bold; 
+}
+
+#footer{
+    background-color: #3f3f3f;
+    color: #d5d5d5; 
+}
+
+#footer a {
+    color: white;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+.redes {
+    background: #ddd8d8
+}
+.redes img {
+    display:flex;
+    margin:0 auto;
+}

@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="restaurantes.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <title>PromoDurango</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark ">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="Imagenes/marca/imagotipo-rojo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="promociones.html">Promociones</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Restaurantes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="acerca.html">Acerca de</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-promo btn btn-promo" href="login.html">Iniciar Sesión</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- /Header -->
+
+    <!-- Tipo de comida -->
+    <section id="tipo">
+        <div class="container mt-3">
+            <div class="row">
+                <div class="col text-center text-uppercase mt-3">
+                    <h2>Explorar por tipo</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 col-md-4 col-lg-2 mb-1">
+                    <a href="#mariscos">
+                        <div class="card " style="width: 10rem; height: 11rem;">
+                            <img class="card-img-top" src="Imagenes/imagenes-comida/ceviche.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text text-center">Mariscos</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 mb-1">
+                    <a href="#mexicana">
+                        <div class="card " style="width: 10rem; height: 11rem;">
+                            <img class="card-img-top" src="Imagenes/imagenes-comida/comida_mexican.jpg"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text text-center">Mexicana</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 mb-1">
+                    <a href="#italiana">
+                        <div class="card " style="width: 10rem; height: 11rem;">
+                            <img class="card-img-top" src="Imagenes/imagenes-comida/lasagna.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text text-center">Comida Italiana</p>
+                            </div>
+                        </div>
+                </div>
+                </a>
+                <div class="col-6 col-md-4 col-lg-2 mb-1">
+                    <a href="#sushi">
+                        <div class="card " style="width: 10rem; height: 11rem;">
+                            <img class="card-img-top" src="Imagenes/imagenes-comida/sushi.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text text-center">Sushi</p>
+                            </div>
+                        </div>
+                </div>
+                </a>
+                <div class="col-6 col-md-4 col-lg-2 mb-1">
+                    <a href="#cafe">
+                        <div class="card " style="width: 10rem; height: 11rem;">
+                            <img class="card-img-top" src="Imagenes/imagenes-comida/cafe.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text text-center">Café</p>
+                            </div>
+                        </div>
+                </div>
+                </a>
+                <div class="col-6 col-md-4 col-lg-2 mb-1">
+                    <a href="#rapida">
+                        <div class="card " style="width: 10rem; height: 11rem;">
+                            <img class="card-img-top" src="Imagenes/imagenes-comida/comida_rapida.jpeg"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text text-center">Comida rápida</p>
+                            </div>
+                        </div>
+                </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!--/Tipo de comida -->
+
+    <!-- Imagen informativa -->
+    <section id="place-time">
+        <div class="container-fluid mt-3 pb-2 pt-2">
+            <div class="row">
+                <div class="col-12 col-lg-6 pl-0 pr-0">
+                    <img src="Imagenes/restaurant.jpg" alt="">
+                </div>
+                <div class="col col-12 col-lg-6 pt-2">
+                    <h3>PromoDurango </h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, ipsum! Inventore cum, debitis enim natus, non nisi aliquid numquam tenetur mollitia soluta recusandae accusamus aspernatur, nostrum expedita consectetur! Neque, necessitatibus. </p>
+                    <a class="btn btn-outline-light" href="#mejores">Conoce los mejores restaurantes</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //Imagen informativa -->
+
+
+    <!-- Mejor Calificación--->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col text-uppercase">
+                <h2 id="mejores">Mejor calificación</h2>
+            </div>
+        </div>
+        <div class="row">
+
+            <ul class="list-unstyled mx-1">    
+                <li class="media mb-3">
+                <a href="#"><img src="Imagenes/Restaurante/pimenton.jpg" height="64px" class="mr-3" alt="..."> </a>
+                    <div class="media-body">
+                        <h5 class="mt-0 mb-1">Pimenton</h5>
+                        <p class="nostl">purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi                            vulputate fringilla. Donec lacinia congue felis in faucibus.
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras</p> 
+                    </div>
+                </li>
+               
+                <li class="media mb-3">
+                <a href="#"><img src="Imagenes/Restaurante/logo_goikogrill.png" height="64px" class="mr-3" alt="..."></a>
+                    <div class="media-body">
+                        <h5 class="mt-0 mb-1">goiko grill</h5>
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras
+                        purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi
+                        vulputate fringilla. Donec lacinia congue felis in faucibus.
+                    </div>
+                </li>
+                <li class="media mb-3">
+                    <img src="Imagenes/Restaurante/f08952c574711d77edb77f2a49c17828-logo-del-restaurante-de-comida-mexicana.jpg"
+                        height="64px" class="mr-3" alt="...">
+                    <div class="media-body">
+                        <h5 class="mt-0 mb-1">Mexicana</h5>
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras
+                        purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi
+                        vulputate fringilla. Donec lacinia congue felis in faucibus.
+                    </div>
+                </li>
+                <li class="media mb-3">
+                    <img src="Imagenes/Restaurante/prime.png" height="64px" class="mr-3" alt="...">
+                    <div class="media-body">
+                        <h5 class="mt-0 mb-1">Prime</h5>
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras
+                        purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi
+                        vulputate fringilla. Donec lacinia congue felis in faucibus.
+                    </div>
+                </li>
+                <li class="media mb-3">
+                <a href="#"> <img src="Imagenes/Restaurante/criolla.jpg" height="64px" class="mr-3" alt="..."></a>
+                    <div class="media-body">
+                        <h5 class="mt-0 mb-1">Criolla</h5>
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras
+                        purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi
+                        vulputate fringilla. Donec lacinia congue felis in faucibus.
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--/Mejor Calificación-->
+
+    <!-- Mariscos -->
+    <div class="container">
+        <div class="row">
+            <div class="col text-center text-uppercase">
+                <h2 id="mariscos"> Mariscos</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-6">
+                <div class="card">
+                    <img src="Imagenes/imagenes-comida/Mariscos/Langostinos.jpg" class="img-fluid"
+                        alt="Imagen ">
+                    <div class="card-body">
+                        <h5 class="card-title">Mariscos Langostinos</h5>
+                        <p class="card-text">Praesent pharetra, nulla vel bibendum.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-6 ">
+                <div class="card">
+                    <img src="Imagenes/imagenes-comida/Mariscos/Galeon.jpg" class="img-fluid" alt="Imagen ">
+                    <div class="card-body">
+                        <h5 class="card-title">El Galeón</h5>
+                        <p class="card-text">Praesent pharetra, nulla vel bibendum.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-6 ">
+                <div class="card">
+                    <img src="Imagenes/imagenes-comida/Mariscos/Chatos.jpg" class="img-fluid" alt="Imagen ">
+                    <div class="card-body">
+                        <h6 class="card-title">Pescados Chato´s</h6>
+                        <p class="card-text">Praesent pharetra, nulla vel bibendum.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-6 ">
+                <div class="card">
+                    <img src="Imagenes/imagenes-comida/Mariscos/playa-linda.jpg" class="img-fluid"
+                        alt="Imagen ">
+                    <div class="card-body">
+                        <h5 class="card-title">Playa Linda</h5>
+                        <p class="card-text">Praesent pharetra, nulla vel bibendum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <button type="button" class="btn btn-outline-danger btn-sm float-right ">Ver más</button>
+        <br> -->
+    </div>
+    <!-- /Mariscos -->
+
+    <!-- Mexicana -->
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col text-center text-uppercase">
+                <h2 id="mexicana"> Comida Mexicana</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-4 mb-1">
+                <div class="card">
+                    <img src="Imagenes/imagenes-comida/Mexicana/guanatos.jpg" class="img-fluid" alt="Imagen ">
+                    <div class="card-body">
+                        <h5 class="card-title">Guanatos</h5>
+                        <p class="card-text">Mauris a auctor enim. Etiam.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 mb-1">
+                <div class="card">
+                    <img src="Imagenes/imagenes-comida/Mexicana/mi-cocina.jpg" class="img-fluid" alt="Imagen ">
+                    <div class="card-body">
+                        <h5 class="card-title">Mi cocina</h5>
+                        <p class="card-text">Mauris a auctor enim. Etiam.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 mb-1">
+                <div class="card">
+                    <img src="Imagenes/imagenes-comida/Mexicana/la-parroquia.jpg" class="img-fluid" alt="Imagen ">
+                    <div class="card-body">
+                        <h5 class="card-title">La parroquia</h5>
+                        <p class="card-text">Mauris a auctor enim. Etiam.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <button type="button" class="btn btn-outline-danger btn-sm float-right">Ver más</button>
+        <br> -->
+    </div>
+    <!-- /Mexicana -->
+
+    <!-- Italiana -->
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col text-center text-uppercase mt-3">
+                <h2 id="italiana"> Comida Italiana</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-6 mb-1 ">
+                <div class="card">
+                    <img src="Imagenes/imagenes-comida/Italiana/Lugano.jpg" class="img-fluid" alt="Imagen Hamburguesa">
+                    <div class="card-body">
+                        <h5 class="card-title">Lugano</h5>
+                        <p class="card-text">Duis id laoreet orci. Vestibulum.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-6 mb-1 ">
+                <div class="card">
+                    <img src="Imagenes/imagenes-comida/Italiana/lucky black.jpg" class="img-fluid"
+                        alt="Imagen Hamburguesa">
+                    <div class="card-body">
+                        <h5 class="card-title">Lucky Black</h5>
+                        <p class="card-text">Duis id laoreet orci. Vestibulum.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-6 mb-1 ">
+                <div class="card">
+                    <img src="Imagenes/imagenes-comida/Italiana/corleone.jpg" class="img-fluid"
+                        alt="Imagen Hamburguesa">
+                    <div class="card-body">
+                        <h5 class="card-title">Corleone</h5>
+                        <p class="card-text">Duis id laoreet orci. Vestibulum.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-6 mb-1">
+                <div class="card">
+                    <img src="Imagenes/imagenes-comida/Italiana/la-piccata.jpg" class="img-fluid"
+                        alt="Imagen Hamburguesa">
+                    <div class="card-body">
+                        <h5 class="card-title">La Piccata</h5>
+                        <p class="card-text">Duis id laoreet orci. Vestibulum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>    
+        <!-- <button type="button" class="btn btn-outline-danger btn-sm float-right">Ver más</button>
+        <br> -->
+        
+    </div>
+    <!-- /Italiana -->
+
+    <!-- Sushi  -->
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col text-center text-uppercase mt-3">
+                <h2 id="sushi">Sushi</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-4 mb-1">
+                <div class="card">
+                    <img src="Imagenes/imagenes-comida/Sushi/kiromi.jpg" class="img-fluid" alt="Imagen Hamburguesa">
+                    <div class="card-body">
+                        <h5 class="card-title">Kiromi Sushi</h5>
+                        <p class="card-text">Duis id laoreet orci. Vestibulum.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 mb-1">
+                <div class="card">
+                    <img src="Imagenes/imagenes-comida/Sushi/okane.jpg" class="img-fluid" alt="Imagen Hamburguesa">
+                    <div class="card-body">
+                        <h5 class="card-title">Okane Suchi</h5>
+                        <p class="card-text">Duis id laoreet orci. Vestibulum.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 mb-1">
+                <div class="card">
+                    <img src="Imagenes/imagenes-comida/Sushi/sakura.jpg" class="img-fluid" alt="Imagen Hamburguesa">
+                    <div class="card-body">
+                        <h5 class="card-title">Sakura No Ki</h5>
+                        <p class="card-text">Duis id laoreet orci. Vestibulum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <button type="button" class="btn btn-outline-danger btn-sm float-right">Ver más</button>
+        <br> -->
+    </div>
+    <!-- /Sushi  -->
+
+    <!-- Cafe -->
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col text-center text-uppercase mt-3">
+                <h2 id="cafe"> Cafeterias</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-6 mb-1">
+                <div class="card">
+                    <img src="Imagenes/imagenes-comida/cefeterias/punta-del-cielo.jpg" class="img-fluid"
+                        alt="Imagen Hamburguesa">
+                    <div class="card-body">
+                        <h5 class="card-title">Punta del cielo</h5>
+                        <p class="card-text">Phasellus orci mauris, tempor ut.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-6 mb-1">
+                <div class="card">
+                    <img src="Imagenes/imagenes-comida/cefeterias/cucurumbe.jpg" class="img-fluid"
+                        alt="Imagen Hamburguesa">
+                    <div class="card-body">
+                        <h5 class="card-title">Cucurumbe</h5>
+                        <p class="card-text">Phasellus orci mauris, tempor ut.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-6 mb-1">
+                <div class="card">
+                    <img src="Imagenes/imagenes-comida/cefeterias/italian-coffee.jpg" class="img-fluid"
+                        alt="Imagen Hamburguesa">
+                    <div class="card-body">
+                        <h5 class="card-title">Italian Coffee</h5>
+                        <p class="card-text">Phasellus orci mauris, tempor ut.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-6 mb-1">
+                <div class="card">
+                    <img src="Imagenes/imagenes-comida/cefeterias/lola.jpg" class="img-fluid" alt="Imagen Hamburguesa">
+                    <div class="card-body">
+                        <h5 class="card-title">Lola cafe</h5>
+                        <p class="card-text">Phasellus orci mauris, tempor ut.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <button type="button" class="btn btn-outline-danger btn-sm float-right">Ver más</button>
+        <br> -->
+    </div>
+    <!-- /Cafe -->
+
+    <!-- Comida rapida -->
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col text-center text-uppercase mt-3">
+                <h2 id="rapida"> Comida Rapida</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-4 mb-1">
+                <div class="card">
+                    <img src="Imagenes/imagenes-comida/rapida/juan.jpg" class="img-fluid" alt="Imagen Hamburguesa">
+                    <div class="card-body">
+                        <h5 class="card-title">Juan Burguer</h5>
+                        <p class="card-text">Sed facilisis, dui a sollicitudin.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 mb-1">
+                <div class="card">
+                    <img src="Imagenes/imagenes-comida/rapida/cherries.jpg" class="img-fluid" alt="Imagen Hamburguesa">
+                    <div class="card-body">
+                        <h5 class="card-title">Cherrie´s</h5>
+                        <p class="card-text">Sed facilisis, dui a sollicitudin.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 mb-1">
+                <div class="card">
+                    <img src="Imagenes/imagenes-comida/rapida/equi.jpg" class="img-fluid" alt="Imagen Hamburguesa">
+                    <div class="card-body">
+                        <h5 class="card-title">Los equipales</h5>
+                        <p class="card-text">Sed facilisis, dui a sollicitudin.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="col">
+            <button type="button" class="btn btn-outline-danger btn-sm float-right">Ver más</button>
+            <br><br>
+        </div> -->
+    </div>
+    <!-- /Comida rapida -->
+
+    <!-- Footer -->
+    <footer id="footer" class="pb-1 pt-1">
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <img src="Imagenes/marca/isotipo-blanco.png" alt="" height="40">
+                    <hr class="light">
+                    <p>618-123-456-78</p>
+                    <p>github.com/IvanFrescas/Promodurango</p>
+                    <p>Felipe Pescador #123</p>
+
+                </div>
+                <div class="col-md-4">
+
+                    <hr class="light">
+                    <h5>Contacto</h5>
+                    <hr class="light">
+                    <p>¿Quieres anunciar tu restaurante aqui? mandanos un correo</p>
+                    <p>ivanfrescas8@gmail.com</p>
+                    
+
+                </div>
+                <div class="col-md-4">
+                    <hr class="light">
+                    <h5>Patrocinadores</h5>
+                    <hr class="light">
+                    <p>Relacionado</p>
+                    <p>Instituto Tecnológico de Durango</p>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- /Footer-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
